@@ -1,8 +1,6 @@
-import 'dart:ui';
-
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
+
 import 'constant.dart';
 
 class Section1 extends StatelessWidget {
@@ -11,7 +9,7 @@ class Section1 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SizedBox(
-      height: 600,
+      height: 650,
       child: Row(
         children: [
           SizedBox(

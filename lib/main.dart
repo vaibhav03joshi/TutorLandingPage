@@ -1,8 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:landing_page/MessageLine.dart';
 import 'package:landing_page/Section1.dart';
+import 'package:landing_page/Section2.dart';
+import 'package:landing_page/Section3.dart';
+import 'package:landing_page/Section4.dart';
+import 'package:landing_page/Section5.dart';
 import 'NavBar.dart';
-import 'constant.dart';
 
 void main() {
   runApp(const MyApp());
@@ -35,6 +38,10 @@ class HomePage extends StatelessWidget {
             NavBar(),
             MessageLine(),
             Section1(),
+            Section2(),
+            Section3(),
+            Section4(),
+            Section5(),
           ],
         ),
       ),

@@ -5,7 +5,10 @@ import 'package:landing_page/Section2.dart';
 import 'package:landing_page/Section3.dart';
 import 'package:landing_page/Section4.dart';
 import 'package:landing_page/Section5.dart';
+import 'package:landing_page/Section6.dart';
+import 'package:landing_page/Section8.dart';
 import 'NavBar.dart';
+import 'Section7.dart';
 
 void main() {
   runApp(const MyApp());
@@ -42,6 +45,9 @@ class HomePage extends StatelessWidget {
             Section3(),
             Section4(),
             Section5(),
+            Section6(),
+            Section7(),
+            Section8()
           ],
         ),
       ),
